@@ -1,0 +1,125 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+
+
+.clear {
+	clear: both;
+}
+
+div {
+	background-color: #eaeaea;
+}
+
+#header {
+	margin: 62px 0 29px 0;
+	height: 95px;
+	background-image: url(header_backg.png);
+    background-repeat: repeat-x;
+}
+
+/*main-content (begin)*/
+#main-content {
+	width: 970px;
+	margin:0 auto;
+	background-color: transparent;
+	margin-bottom: 32px;
+}
+
+/* left-column (begin)*/
+#left-column {
+	width: 730px;
+	border-radius: 15px;
+	float: left;
+	background-color: transparent;
+	border-top: 1px solid #f7f7f7;
+	margin-right: 20px;
+}
+
+#top-block {
+	height: 684px;
+	margin-bottom: 28px;
+	border-radius: 15px;
+}
+
+#block2 {
+	height: 140px;
+	margin-bottom: 20px;
+	border-radius: 15px;
+}
+
+#block3 {
+	width: 490px;
+	height: 200px;
+	float: left;
+	margin: 2px 20px 0 0;
+	border-radius: 15px;
+}
+
+#block4 {
+	width: 220px;
+	height: 205px;
+	float: right;
+	border-radius: 15px;
+}
+
+#thin-left-block {
+	width: 250px;
+	height: 52px;
+	float: left;
+	margin: 24px 20px 0 0;
+	border-radius: 15px;
+}
+
+#thin-right-block {
+	width: 460px;
+	height: 53px;
+	float: right;
+	margin-top: 23px;
+	border-radius: 15px;
+}
+/*left-column (end)*/
+
+/*right-column (begin)*/
+
+#right-column {
+	width: 180px;
+	height: 810px;
+	float: right;
+	padding: 20px;
+	border-radius: 15px;
+	border-top: 1px solid #f7f7f7;
+}
+
+#top, #mid, #bot {
+	width: 180px;
+	height: 56px;
+	background-color: #8d8d8d;
+	margin-bottom: 14px;
+	border-radius: 15px;
+}
+
+#left, #right {
+	width: 71px;
+	height: 114px;
+	background-color: #8d8d8d;
+	float: left;
+	margin-top: 5px;
+	border-radius: 15px;
+}
+
+#left {
+	margin: 5px 29px 0 5px;
+}
+
+/*right-column (end)*/
+/*main-content (end)*/
+
+#footer {
+	height: 73px;
+	border: 1px solid #e1e1e1;
+	background-color:#efefef;
+}
+
+#underfoot {
+	background-color: #f8f8f8;
+	height: 301px;
+}
